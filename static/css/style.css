@@ -1,0 +1,80 @@
+/* Reset and basic styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
+}
+
+/* Blurred background */
+.background {
+    background-image: url("..\images\logo.png"); /* Make sure the path is correct */
+    background-size: cover;
+    background-position: center;
+    filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+/* Main container with semi-transparent background */
+.container {
+    max-width: 500px;
+    margin: 100px auto;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Headline */
+.container h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #333;
+}
+
+/* Form styling */
+form input[type="file"] {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 5px;
+}
+
+form button {
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Prediction result */
+.result, .error {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.result strong {
+    color: #007bff;
+}
+
+/* Uploaded image preview */
+.container img {
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
