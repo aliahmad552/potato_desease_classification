@@ -6,11 +6,6 @@ A deep learning web application built with **TensorFlow** and **Flask** that cla
 - Late Blight 🧫  
 - Healthy ✅
 
----
-
-## 📸 Example UI
-
-![App Screenshot](static/images/logo.png)
 
 ---
 
@@ -62,9 +57,10 @@ Edit
 
 ### ✅ 1. Clone the repo
 
-```bash
+bash
 git clone https://github.com/aliahmad552/Potato-Disease-Classification.git
 cd Potato-Disease-Classification
+
 ### ✅ 2. Install dependencies
 bash
 Copy
