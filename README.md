@@ -65,26 +65,26 @@ Edit
 ```bash
 git clone https://github.com/aliahmad552/Potato-Disease-Classification.git
 cd Potato-Disease-Classification
-## ✅ 2. Install dependencies
+### ✅ 2. Install dependencies
 bash
 Copy
 Edit
 pip install -r requirements.txt
-## ✅ 3. Run the Flask app
+### ✅ 3. Run the Flask app
 bash
 Copy
 Edit
 python app.py
 Now visit: http://127.0.0.1:5000
 
-## 📂 Dataset
+### 📂 Dataset
 Custom dataset with three classes (Early Blight, Late Blight, Healthy)
 
 Train/Validation/Test split handled using ImageDataGenerator
 
 Image size: 256x256, normalized between 0-1
 
-## 💻 Author
+### 💻 Author
 Ali Ahmad
 BS Software Engineering – The Islamia University of Bahawalpur
 GitHub: aliahmad552
