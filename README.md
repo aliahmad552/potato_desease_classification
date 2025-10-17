@@ -57,22 +57,20 @@ Edit
 
 ### ✅ 1. Clone the repo
 
-bash
+```bash
 git clone https://github.com/aliahmad552/Potato-Disease-Classification.git
 cd Potato-Disease-Classification
+```
 
 ### ✅ 2. Install dependencies
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
+```
 ### ✅ 3. Run the Flask app
-bash
-Copy
-Edit
+```bash
 python app.py
 Now visit: http://127.0.0.1:5000
-
+```
 ### 📂 Dataset
 Custom dataset with three classes (Early Blight, Late Blight, Healthy)
 
